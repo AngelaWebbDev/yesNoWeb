@@ -6,20 +6,19 @@
     <title>The Answer</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
+<body id="bodyArea">
+    <header id="headerArea">
         <h1>You have a question.</h1>
         <h2>I have the answer.</h2>
     </header>
-
-    <main>
-        <form>
+    <img id="goodbyePic" src="images/IMG_4185.JPG" alt="">
+    <main id="mainArea">
+        
+        <section id="questionArea">
             <input type="text" id="theQuestion" placeholder="enter your question here"><br>
-            <button id="askBtn" onclick="getAnswer();">Submit Question for Consideration</button>
-        </form>
-        <div id="answerArea">
-            <p id="theAnswer"> </p>
-        </div>
+            <button id="askBtn" onclick="getAnswer()">Submit Question for Consideration</button>
+        </section>
+        <p id="theAnswer"></p>
     </main>
 
     <script src="script.js"></script>

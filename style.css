@@ -12,16 +12,33 @@ header{
     margin:10px;
     text-align: center;
 }
-form{
-    border: darkblue 2px solid;
-    border-radius: 5px;
+#goodbyePic{
+    display:none;
+    height:0;
+}
+#questionArea{
     padding:5px;
     margin:10px;
     text-align: center;
 }
+#theQuestion{
+    padding:5px;
+}
+#askBtn{
+    background:none;
+    margin:5px;
+    padding:5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px gray;
+}
+#askBtn:active{
+    /* font-size: .75rem; */
+    padding:0;
+}
 #theAnswer{
-    margin:10px;
+    margin:10px auto;
     padding:5px;
     text-align: center;
     font-weight: bold;
+    width:fit-content;
 }
